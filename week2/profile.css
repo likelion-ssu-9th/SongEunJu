@@ -1,15 +1,16 @@
-*{
+* {
     background-color: #fafafa;
 }
 
 header{
-    width:900px;
+    width:1000px;
     height:200px;
     margin:70px auto 0px auto;
     display:flex;
     flex-direction: row;
 }
-/* profilePhoto */
+/* profilePhoto  */
+
 #photoBtn{
     border:none;
 }
@@ -18,7 +19,7 @@ header{
     padding:30px;
     border-radius:70%;
 }
-/* profileDetail */
+/*  profileDetail  */
 .profileDetail{
     padding-left:150px;
     display:flex;
@@ -51,7 +52,7 @@ header{
     font-weight: bold;
 }
 
-/* main */
+/*  main  */
 main{
     width:900px;
     height:300px;
@@ -61,15 +62,15 @@ main{
     flex-direction: row;
 }
 
-main ul{
-    display: none;
+main ul li{
+    display:none;
 }
 
 .postImg:hover {
     filter: opacity(0.7) drop-shadow(0 0 0 black);
 }
 
-.postImg:hover ul{
+.postImg:hover > ul{
     display:flex;
-    align-items:center;
-}
+    text-align: center;
+} 
